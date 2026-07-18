@@ -5541,3 +5541,7 @@ Chnages
 }
 
 }
+
+.last_list {
+    display: none !important;
+}
