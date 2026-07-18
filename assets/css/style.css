@@ -5145,7 +5145,7 @@ Chnages
 }
 
 .navbar-brand img {
-    width: 200px;   /* Adjust as needed */
+    width: 300px;   /* Adjust as needed */
     height: auto;
     max-width: 100%;
 }
@@ -5547,3 +5547,91 @@ Chnages
 }
 
 
+/*==================================
+            CTA SECTION
+==================================*/
+
+.cta-con{
+    background:linear-gradient(135deg,#16375f,#0d8ae2);
+    padding:80px 70px;
+    overflow:hidden;
+}
+
+.cta-con::before{
+    content:"";
+    position:absolute;
+    width:320px;
+    height:320px;
+    background:rgba(255,255,255,.06);
+    border-radius:50%;
+    top:-120px;
+    right:-120px;
+}
+
+.cta-con::after{
+    content:"";
+    position:absolute;
+    width:220px;
+    height:220px;
+    background:rgba(255,255,255,.04);
+    border-radius:50%;
+    bottom:-90px;
+    left:-90px;
+}
+
+.cta-con .special-text{
+    margin-bottom:15px;
+}
+
+.cta-con h2{
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.cta-con p{
+    color:rgba(255,255,255,.88);
+    line-height:32px;
+    max-width:700px;
+}
+
+.cta-con .primary-btn,
+.cta-con .secondary_btn{
+    min-width:220px;
+    text-align:center;
+}
+
+.cta-con .secondary_btn{
+    background:#fff;
+    color:#16375f;
+}
+
+@media(max-width:991px){
+
+.cta-con{
+    padding:60px 40px;
+    text-align:center;
+}
+
+.cta-con p{
+    max-width:100%;
+}
+
+}
+
+@media(max-width:767px){
+
+.cta-con{
+    padding:45px 25px;
+}
+
+.cta-con h2{
+    font-size:34px;
+}
+
+.cta-con .primary-btn,
+.cta-con .secondary_btn{
+    width:100%;
+    margin-top:15px;
+}
+
+}
